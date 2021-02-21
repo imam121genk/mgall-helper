@@ -1,0 +1,13 @@
+{
+    "name": "마갤 도우미",
+    "description": "마이너갤 관리를 좀 더 편하게 합시다. 전국의 모든 파딱주딱 화이팅!",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "back/scheduler.js"
+    },
+    "permission": [
+        "storage",
+        "webRequest"
+    ]
+}
